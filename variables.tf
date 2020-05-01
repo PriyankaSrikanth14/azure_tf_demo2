@@ -3,7 +3,7 @@ variable "prefix" {
 }
 
 variable "region" {
-  default = "eastus"
+  
   description = "Location where the resource group and resources are created"
 }
 
@@ -18,4 +18,10 @@ variable "vm_size" {
 
 variable "vm_username" {
     default = "adminuser"
+}
+
+variable "vm_count" {
+    default = 1
+    description = "Number of VMs"
+
 }
