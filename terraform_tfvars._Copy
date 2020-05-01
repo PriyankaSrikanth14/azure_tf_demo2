@@ -1,5 +1,5 @@
 
-# rename this file to Terraform.tfvars and update the below values
+# rename this file to terraform.tfvars and update the below values
 prefix=""
 region=""
 vnet_cidr=""
